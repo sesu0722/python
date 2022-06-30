@@ -17,7 +17,8 @@ Projext Name: PyBank and PyPoll
  
  #coding:
  1. PyBank:
-    #
-    #
-    #
+    # Total Month
+    # Total Profit and loss
+    # Average monthly change
+    # Greatest increase and decrease in profit
 
