@@ -12,4 +12,12 @@ Projext Name: PyBank and PyPoll
     The script calculates total votes and analyze the vote counts for each candidate, then announce the winner.
 
 #Date: 06.29.2022 #Author: I Ju SU selina.iju@gmail.com #How to start working with this?
+ 1. There are two folders - PyBank and Pypoll, each folder has it's script file main.py, analysis folder and resource folder respectively
+ 2. The analysis file was created and written by the main.py based on dataset (in resource folder) and saved in analysis folder.
+ 
+ #coding:
+ 1. PyBank:
+    #
+    #
+    #
 
