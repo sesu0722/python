@@ -2,7 +2,7 @@
 Projext Name: PyBank and PyPoll
 
 #Description 
-  PyBank
+ 1. PyBank:
   In this project, the Python scripting is used to analyze the financial record of PyBank from Jan-10 to Feb-17. 
   It calculates total profit and loss and average monthly change of the dataset. Also,the months with greatest profit increase and decrease 
   are showed for reference.
