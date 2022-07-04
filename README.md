@@ -24,3 +24,4 @@ Projext Name: PyBank and PyPoll
     * Greatest increase and decrease in profit: set variables to hold the greatest increase and decrease month and value, use for loop and if to loop through and compare the changes, update the new greatest month and value.
     * Print and write all the results (output) above to Pybank_analysis.txt
 
+ 2. Pypoll:
