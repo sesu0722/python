@@ -17,8 +17,10 @@ Projext Name: PyBank and PyPoll
  
 #coding:
  1. PyBank:
-    * Total Month
-    * Total Profit and loss
-    * Average monthly change
-    * Greatest increase and decrease in profit
+    With budgetdataCSV (os path budget_data.csv) open as sourcefile
+    * Total Month: use for loop to calculate the total months(rows except header)
+    * Total Profit and loss:
+    * Average monthly change:
+    * Greatest increase and decrease in profit:
+    Print and whrite all the results (output) ablove to 
 
