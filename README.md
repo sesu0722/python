@@ -17,7 +17,7 @@ Projext Name: PyBank and PyPoll
  
 #coding:
  1. PyBank:
-    With budgetdataCSV (os path budget_data.csv) open as sourcefile and csvreader
+    With budgetdataCSV (os path budget_data.csv) open as sourcefile and csvreader to read the file
     * Total Month: set variable totalmonths=0 and use for loop to count (increment) the total months (rows except header)
     * Total Profit and loss: set variable net_total=0 and loop through to sumup from fist row (skip header)
     * Average monthly change: initialize the list of monthlychanges =[ ], set the initial 'previous profit and loss' to the first row index 1, calculate the monthly changes by deduct 'previous profit and loss' from current profit and loss, then update the previouse profit and loss when looping throgh the rows. Add on to the monthly changes and devided by len of 'monthlychanges' to get the averge monthly changes.
@@ -25,3 +25,9 @@ Projext Name: PyBank and PyPoll
     * Print and write all the results (output) above to Pybank_analysis.txt
 
  2. Pypoll:
+    With electiondataCSV (os path election_data.csv) open as sourcefile and csvreader to read the file
+    * Total number of Votes:
+    * List of candidates:
+    * The percentage of votes each candidate won:
+    * The total number of votes each candidate won:
+    * The winner:
