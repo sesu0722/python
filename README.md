@@ -27,9 +27,7 @@ Projext Name: PyBank and PyPoll
  2. Pypoll:
     With electiondataCSV (os path election_data.csv) open as sourcefile and csvreader to read the file
     * Total number of Votes: set variable totalvotes=0 and use for loop to count (increment) the total votes (rows except header)
-    * List of candidates: initialize the list of candidates =[ ], check to see if the candidate is in the list of candidates, if 
-    the cancidate is not in the list, add the candidate and count one vote, else, add a vote to the condidate's count
-    * The percentage of votes each candidate won:
-    * The total number of votes each candidate won:
-    * The winner:
+    * List of candidates and The total number of votes each candidate won: initialize the list of candidates =[ ], check to see if the candidate is in the list of candidates, if the cancidate is not in the list, add the candidate and count one vote, else, add a vote to the condidate's count
+    * The percentage of votes each candidate won: get the percentage of the votes by dividing the candidate's votes by total votes
+    * The winner: compare the candidate's votes to the winning count, update the winning candidate when his/her votes is higher then the winning count
     * Print and write all the results (output) above to Pypoll_analysis.txt
