@@ -20,7 +20,7 @@ Projext Name: PyBank and PyPoll
     With budgetdataCSV (os path budget_data.csv) open as sourcefile and csvreader
     * Total Month: set variable totalmonths=0 and use for loop to count (increment) the total months (rows except header)
     * Total Profit and loss: set variable net_total=0 and loop through to sumup from fist row (skip header)
-    * Average monthly change: initialize the list of monthlychanges =[], set the initial 'previous profit and loss' to the first row index 1, calculate the monthly changes by deduct 'previous profit and loss' from current profit and loss, then update the previouse profit and loss when looping throgh the rows. Add on to the monthly changes and devided by len of 'monthlychanges' to get the averge monthly changes.
+    * Average monthly change: initialize the list of monthlychanges =[ ], set the initial 'previous profit and loss' to the first row index 1, calculate the monthly changes by deduct 'previous profit and loss' from current profit and loss, then update the previouse profit and loss when looping throgh the rows. Add on to the monthly changes and devided by len of 'monthlychanges' to get the averge monthly changes.
     * Greatest increase and decrease in profit: set variables to hold the greatest increase and decrease month and value, use for loop and if to loop through and compare the changes, update the new greatest month and value.
     * Print and write all the results (output) above to Pybank_analysis.txt
 
